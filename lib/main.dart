@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("A.Reader"),
+        title: Text("Reader Tracker"),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: _screens[_currentIndex],
