@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 import 'package:reader_tracker/models/book.dart';
 
@@ -7,7 +8,7 @@ class Network {
   // api endpoint
 
   static const String _baseUrl = "https://www.googleapis.com/books/v1/volumes";
-  static const String apiKey = "AIzaSyBnMT7O3OFWAv5mYXQe0RwzhPtOZsQ4C-c";
+  static String get apiKey => dotenv.env['BOOKS_API_KEY'] ?? "";
 
   Future<List<Book>> searchBooks(String query) async {
     var uri = Uri.parse('$_baseUrl?q=$query&key=$apiKey');

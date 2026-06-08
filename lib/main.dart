@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:reader_tracker/pages/book_details.dart';
 import 'package:reader_tracker/pages/favorite_screen.dart';
 import 'package:reader_tracker/pages/home_screen.dart';
 import 'package:reader_tracker/pages/saved_screen.dart';
 
-void main() {
+Future<void> main() async {
+  await dotenv.load(fileName: ".env");
   runApp(const MyApp());
 }
 
