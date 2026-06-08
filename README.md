@@ -13,16 +13,16 @@ A beautifully designed, feature-rich Flutter application for tracking and managi
 
 ## 📸 Screenshots
 
-_(To display these screenshots on GitHub, create a `screenshots` folder in your project root and save your images there with the corresponding names)_
+_(To display these screenshots on GitHub, the images have been added to the `assets/screenshots` folder in the project root)_
 
 <p align="center">
-  <img src="screenshots/home.png" width="22%" alt="Home Screen"/>
+  <img src="assets/screenshots/home.png" width="22%" alt="Home Screen"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/details.png" width="22%" alt="Book Details"/>
+  <img src="assets/screenshots/details.png" width="22%" alt="Book Details"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/saved.png" width="22%" alt="Saved Screen"/>
+  <img src="assets/screenshots/saved.png" width="22%" alt="Saved Screen"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/favorites.png" width="22%" alt="Favorite Screen"/>
+  <img src="assets/screenshots/favorites.png" width="22%" alt="Favorite Screen"/>
 </p>
 
 ## 🚀 Getting Started
